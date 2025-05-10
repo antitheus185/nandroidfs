@@ -39,3 +39,12 @@ Installed by script, run `./install_deps.ps1` to install any of these dependenci
 #### Instructions
 1. - Navigate to `./nandroid_daemon` and run `./build.ps1`
 2. - Open the `NandroidFS.sln` file in Visual Studio 2022 and change the configuration to `Release`. Press `Ctrl + Shift + B` to build or use the button to build and run the app.
+  
+
+## Important note:
+- Make sure you don't have your default USB connection mode set to mtp / file transfer mode, this will not work unless you connect via charging mode (the one that does nothing, usually last choice in the list - camera (ptp), USB file transfer (mtp), midi, USB Hotspot, charging)
+- It will request to allow USB debugging from your PC, you can set it to always allow but do be aware that sometimes you may need to revoke authorizations in developer settings and re-allow the access to your device. Don't really know why this happens, but it's not that bad of an issue. Please keep in mind that I am not at all a part of the program's development so I cannot offer any assistance with any issues other than the availability in the releases tab. Please go to Lauriethefish for that stuff, they made this and can far better assist you.
+- the release "version number" is the date of which it was compiled and uploaded, if it wasn't obvious enough lol.
+
+  Alright, that's all from me now, have a good day / evening everyone!
+  ~veeanti<3
